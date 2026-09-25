@@ -34,3 +34,10 @@ html{scroll-behavior:smooth}body{-webkit-tap-highlight-color:transparent}button,
 .os-actions-top{margin-top:14px}
 @media(max-width:600px){.os-summary{grid-template-columns:1fr}.photo-row{align-items:flex-start;flex-direction:column}}
 @media print{body{background:#fff}.sidebar,header,.mobile-menu,.actions,.toolbar,.os-actions-top,.link,.danger-link{display:none!important}.main>#content{padding:0}.panel{box-shadow:none;border:0}.form{max-width:none}input,select,textarea{border:0!important;padding:3px!important;background:#fff!important}.os-summary{break-inside:avoid}}
+
+/* Campos de texto da OS mais compactos */
+.compact-field{padding:8px 10px!important;min-height:40px}
+.compact-area textarea{min-height:68px!important;height:72px;resize:vertical}
+.danger{border:0;border-radius:10px;padding:11px 16px;font-weight:700;background:#fee2e2;color:#b42318}
+.danger:hover{background:#fecaca}
+@media(max-width:900px){.compact-area textarea{min-height:78px!important;height:80px}.compact-field{min-height:42px!important}}
